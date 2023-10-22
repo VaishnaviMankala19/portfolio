@@ -1,0 +1,79 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+  width: 25%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2% 30% 2% 2%;
+  margin-left: 30%;
+  padding: 2%;
+  background-color: transparent;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.avatar {
+  height: 50%;
+  border-radius: 5px;
+  margin-bottom: 2%;
+}
+
+.button2 {
+  height: 150%;
+  width: 150%;
+  background: linear-gradient(to right, #6f00ff, #00ccff);
+  color: white;
+  border-radius: 15%;
+  border-style: none;
+}
+
+.button2:hover {
+  background-color: yellow;
+  cursor: pointer;
+  color: white;
+}
+
+.container p span {
+  /* background: linear-gradient(to right, #e52e71 40%, #f9e076); */
+  background: linear-gradient(to bottom, #6a0894, #05ac90);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 1.5rem;
+}
+
+.container p {
+  font-size: 1.5rem;
+  /* color: white; */
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 40%;
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    width: 70%;
+  }
+}
+
+@media (max-width: 576px) {
+  .avatar {
+    height: 30%; /* Adjust as needed */
+    border-radius: 5px;
+    margin-bottom: 2%;
+  }
+}

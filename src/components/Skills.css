@@ -1,0 +1,155 @@
+#skill {
+  margin-left: 30%;
+  list-style-type: none;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  height: 300px;
+  width: 80%;
+  max-width: 400px;
+}
+
+.skill:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.hh {
+  /* background: linear-gradient(to bottom, #e52e71 30%, #f9e076); */
+  background: linear-gradient(to bottom, #6a0894, #05ac90);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+.skill li {
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.bar {
+  background-color: transparent;
+  display: block;
+  height: 15px;
+  border: 1px solid white;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+
+.bar span {
+  height: 20px;
+  float: left;
+  background: linear-gradient(to right, #5a538a, #7a2785);
+}
+
+.html {
+  width: 90%;
+  animation: html 5s;
+}
+
+.css {
+  width: 70%;
+  animation: css 5s;
+}
+
+.javascript {
+  width: 65%;
+  animation: css 5s;
+}
+
+.reactjs {
+  width: 70%;
+  animation: css 5s;
+}
+
+.node {
+  width: 50%;
+  animation: css 5s;
+}
+
+.mongodb {
+  width: 50%;
+  animation: css 5s;
+}
+
+.python {
+  width: 85%;
+  animation: css 5s;
+}
+
+.cpp {
+  width: 80%;
+  animation: css 5s;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+@keyframes reactjs {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes node {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes mongodb {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes python {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+
+@keyframes cpp {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}

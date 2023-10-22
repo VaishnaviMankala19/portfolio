@@ -1,0 +1,74 @@
+.pcard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+  width: 25%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1% 30% 1% 1%;
+  margin-left: 30%;
+  padding: 2%;
+  background-color: transparent;
+}
+.pcard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.pavatar {
+  width: 90%;
+  border-radius: 5px;
+  margin-top: 2px;
+}
+
+.pbutton2 {
+  height: 150%;
+  width: 150%;
+  background: linear-gradient(to right, #6f00ff, #00ccff);
+  color: white;
+  border-radius: 15%;
+  border-style: none;
+}
+
+.pbutton2:hover {
+  background-color: yellow;
+  cursor: pointer;
+  color: white;
+}
+
+.pheading {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  /* background: linear-gradient(to right, #e52e71 40%, #f9e076); */
+  background: linear-gradient(to bottom, #6a0894, #05ac90);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.pcontainer {
+  /* color: white; */
+}
+
+@media (max-width: 768px) {
+  .pcard {
+    width: 40%;
+  }
+  .pavatar {
+    width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  .pcard {
+    width: 70%;
+  }
+}
+
+@media (max-width: 576px) {
+  .pavatar {
+    height: 150px;
+    border-radius: 5px;
+    margin-top: 2px;
+  }
+}
